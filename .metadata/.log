@@ -65,3 +65,60 @@ java.nio.file.FileSystemException: /private/var/folders/kj/598v005n44d_cj2s0q2zd
 
 !ENTRY org.eclipse.ui 2 2 2022-11-20 15:57:54.849
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:17.196
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:17.211
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5ed84416[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=561)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:17.215
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:17.411
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.359
+!MESSAGE Boot LS startup time from start to initialized: 12106ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.522
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cuVfbkpdisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.525
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.528
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.528
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.528
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.529
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cuVfbkpd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.546
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.548
+!MESSAGE buffering callback sts4.classpath.cuVfbkpd backend false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:29.548
+!MESSAGE executing callback sts4.classpath.cuVfbkpd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:30.929
+!MESSAGE executing callback sts4.classpath.cuVfbkpd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:59.695
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.cuVfbkpd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:59.709
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.cuVfbkpd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:59.711
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-20 22:16:59.712
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.cuVfbkpd => OK
